@@ -4,7 +4,7 @@ import { CursorStatus } from '@pind/designable-core'
 import { autorun } from '@formily/reactive'
 import { observer } from '@formily/reactive-react'
 import { NodeTitleWidget } from '../NodeTitleWidget'
-import './styles.less'
+import './styles.scss'
 
 export const GhostWidget = observer(() => {
   const designer = useDesigner()

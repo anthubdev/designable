@@ -1,6 +1,6 @@
-@import '../variables.less';
+@import '../variables.scss';
 
-.@{prefix-cls}-viewport {
+.#{$prefix-cls}-viewport {
   height: 100%;
   width: 100%;
   min-height: 100px;

@@ -2,7 +2,7 @@ import React from 'react'
 import { MobileBody } from './body'
 import { usePrefix } from '../../hooks'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 export interface IMobileSimulatorProps
   extends React.HTMLAttributes<HTMLDivElement> {
   className?: string

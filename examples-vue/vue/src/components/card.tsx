@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import './style.less'
+import './style.scss'
 
 export const Card = defineComponent({
   name: 'Card',

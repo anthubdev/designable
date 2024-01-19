@@ -21,7 +21,7 @@ import {
 } from '../../shared'
 import { createArrayBehavior } from '../ArrayBase'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 const ensureObjectItemsNode = createEnsureTypeItemsNode('object')
 

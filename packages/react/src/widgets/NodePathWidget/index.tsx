@@ -4,7 +4,7 @@ import { useSelectedNode, useSelection, usePrefix, useHover } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import { NodeTitleWidget } from '../NodeTitleWidget'
 import { observer, ReactFC } from '@formily/reactive-react'
-import './styles.less'
+import './styles.scss'
 
 export interface INodePathWidgetProps {
   workspaceId?: string
@@ -24,31 +24,35 @@ export const NodePathWidget: ReactFC<INodePathWidgetProps> = observer(
       .slice(0, maxItems - 1)
       .reverse()
       .concat(selected)
+
     return (
-      <Breadcrumb className={prefix}>
-        {nodes.map((node, key) => {
-          return (
-            <Breadcrumb.Item key={key}>
-              {key === 0 && (
-                <IconWidget infer="Position" style={{ marginRight: 3 }} />
-              )}
-              <a
-                href=""
-                onMouseEnter={() => {
-                  hover.setHover(node)
-                }}
-                onClick={(e) => {
-                  e.stopPropagation()
-                  e.preventDefault()
-                  selection.select(node)
-                }}
-              >
-                <NodeTitleWidget node={node} />
-              </a>
-            </Breadcrumb.Item>
-          )
+      <Breadcrumb
+        className={prefix}
+        items={nodes.map((node, key) => {
+          return {
+            title: (
+              <>
+                {key === 0 && (
+                  <IconWidget infer="Position" style={{ marginRight: 3 }} />
+                )}
+                <a
+                  href=""
+                  onMouseEnter={() => {
+                    hover.setHover(node)
+                  }}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    e.preventDefault()
+                    selection.select(node)
+                  }}
+                >
+                  <NodeTitleWidget node={node} />
+                </a>
+              </>
+            ),
+          }
         })}
-      </Breadcrumb>
+      ></Breadcrumb>
     )
   }
 )

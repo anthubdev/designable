@@ -1,4 +1,4 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
 @keyframes dn-animate-slide-to-top {
   from {
@@ -12,7 +12,7 @@
   }
 }
 
-.@{prefix-cls}-auxtool {
+.#{$prefix-cls}-auxtool {
   transform: perspective(1px) translate3d(0, 0, 0);
   position: absolute;
   width: 100%;
@@ -50,7 +50,7 @@
   }
 }
 
-.@{prefix-cls}-aux-cover-rect {
+.#{$prefix-cls}-aux-cover-rect {
   &.dragging {
     background-color: var(--dn-aux-cover-rect-dragging-color);
   }
@@ -60,18 +60,18 @@
   }
 }
 
-.@{prefix-cls}-aux-free-selection {
+.#{$prefix-cls}-aux-free-selection {
   background-color: var(--dn-aux-free-selection-background-color);
   border-color: var(--dn-aux-free-selection-border-color);
 }
 
-.@{prefix-cls}-aux-helpers {
+.#{$prefix-cls}-aux-helpers {
   position: absolute;
   pointer-events: all;
   z-index: 10;
   user-select: none;
 
-  .dn-aux-button();
+  @extend .dn-aux-button;
 
   &.bottom-right {
     top: 100%;
@@ -140,7 +140,7 @@
       transform: scale(0.9);
       margin-left: 2px;
 
-      &.@{prefix-cls}-icon {
+      &.#{$prefix-cls}-icon {
         transform: scale(1);
         margin-left: 0;
       }
@@ -172,11 +172,11 @@
   }
 }
 
-.@{prefix-cls}-aux-insertion {
+.#{$prefix-cls}-aux-insertion {
   background-color: var(--dn-aux-insertion-color);
 }
 
-.@{prefix-cls}-aux-dashed-box {
+.#{$prefix-cls}-aux-dashed-box {
   border: 1px dashed var(--dn-aux-dashed-box-color);
 
   &-title {
@@ -184,7 +184,7 @@
   }
 }
 
-.@{prefix-cls}-aux-selection-box {
+.#{$prefix-cls}-aux-selection-box {
   border: 2px solid var(--dn-aux-selection-box-border-color);
   position: relative;
   pointer-events: none;
@@ -202,8 +202,8 @@
   }
 }
 
-.@{prefix-cls}-aux-selector {
-  .dn-aux-button();
+.#{$prefix-cls}-aux-selector {
+  @extend .dn-aux-button;
 
   &-menu {
     margin-top: -4px;
@@ -221,11 +221,11 @@
   }
 }
 
-.@{prefix-cls}-aux-drag-handler {
+.#{$prefix-cls}-aux-drag-handler {
   cursor: move;
 }
 
-.@{prefix-cls}-aux-node-resize-handler {
+.#{$prefix-cls}-aux-node-resize-handler {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -291,7 +291,7 @@
   }
 }
 
-.@{prefix-cls}-aux-node-translate-handler {
+.#{$prefix-cls}-aux-node-translate-handler {
   position: absolute;
   display: flex;
   align-items: center;
@@ -304,7 +304,7 @@
   pointer-events: all;
 }
 
-.@{prefix-cls}-aux-space-block-ruler-indicator {
+.#{$prefix-cls}-aux-space-block-ruler-indicator {
   position: absolute;
   background-color: var(--dn-brand-color);
   color: var(--dn-white);
@@ -321,7 +321,7 @@
   }
 }
 
-.@{prefix-cls}-aux-space-block-ruler-h {
+.#{$prefix-cls}-aux-space-block-ruler-h {
   position: absolute;
   top: 50%;
   left: 0;
@@ -345,14 +345,14 @@
     z-index: 1;
   }
 
-  .@{prefix-cls}-aux-space-block-ruler-indicator {
+  .#{$prefix-cls}-aux-space-block-ruler-indicator {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0.7);
   }
 }
 
-.@{prefix-cls}-aux-space-block-ruler-v {
+.#{$prefix-cls}-aux-space-block-ruler-v {
   position: absolute;
   top: 0;
   left: 50%;
@@ -375,7 +375,7 @@
     z-index: 1;
   }
 
-  .@{prefix-cls}-aux-space-block-ruler-indicator {
+  .#{$prefix-cls}-aux-space-block-ruler-indicator {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0.7);

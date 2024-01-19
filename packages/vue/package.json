@@ -23,8 +23,8 @@
     "build:umd": "rollup --config --bundleConfigAsCjs"
   },
   "devDependencies": {
-    "@formily/reactive": "^2.2.16",
-    "@formily/reactive-vue": "^2.2.16",
+    "@formily/reactive": "^2.3.1",
+    "@formily/reactive-vue": "^2.3.1",
     "vue": "^3.2.0"
   },
   "peerDependencies": {

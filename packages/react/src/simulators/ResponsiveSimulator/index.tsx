@@ -16,7 +16,7 @@ import { IconWidget } from '../../widgets'
 import { ResizeHandle, ResizeHandleType } from './handle'
 
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 const useResizeEffect = (
   container: React.RefObject<HTMLDivElement>,

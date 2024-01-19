@@ -16,10 +16,10 @@
     "vue-eslint-parser": "^9.0.0"
   },
   "dependencies": {
-    "@formily/core": "^2.2.16",
-    "@formily/reactive": "^2.2.16",
-    "@formily/reactive-vue": "^2.2.16",
-    "@formily/vue": "^2.2.16",
+    "@formily/core": "^2.3.1",
+    "@formily/reactive": "^2.3.1",
+    "@formily/reactive-vue": "^2.3.1",
+    "@formily/vue": "^2.3.1",
     "@pind/designable-core": "workspace:2.0.0-beta.6",
     "@pind/designable-shared": "workspace:2.0.0-beta.6",
     "@pind/designable-vue": "workspace:2.0.0-beta.6"

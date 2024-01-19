@@ -18,7 +18,7 @@ import { SettingsFormContext } from './shared/context'
 import { useLocales, useSnapshot } from './effects'
 import { Empty } from 'antd'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 const GlobalState = {
   idleRequest: 0,

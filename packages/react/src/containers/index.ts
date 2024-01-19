@@ -1,4 +1,4 @@
-import './styles.less'
+import './styles.scss'
 export * from './Layout'
 export * from './Designer'
 export * from './Workspace'

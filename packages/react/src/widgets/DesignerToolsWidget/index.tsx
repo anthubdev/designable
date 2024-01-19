@@ -11,7 +11,7 @@ import {
 } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 type DesignerToolsType = 'HISTORY' | 'CURSOR' | 'SCREEN_TYPE'
 

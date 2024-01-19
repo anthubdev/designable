@@ -1,4 +1,4 @@
-import './styles.less'
+import './styles.scss'
 export * from './StudioPanel'
 export * from './CompositePanel'
 export * from './SettingsPanel'

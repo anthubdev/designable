@@ -5,7 +5,7 @@ import { createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 export interface IDesignableTextProps {
   value?: string

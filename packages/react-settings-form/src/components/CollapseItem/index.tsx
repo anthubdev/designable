@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useField, observer } from '@formily/react'
 import { usePrefix, IconWidget } from '@pind/designable-react'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 export interface ICollapseItemProps {
   className?: string

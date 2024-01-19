@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-component-tree {
+.#{$prefix-cls}-component-tree {
   height: 100%;
   min-height: 100%;
   min-width: 100%;

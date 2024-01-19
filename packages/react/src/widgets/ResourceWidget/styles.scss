@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-resource {
+.#{$prefix-cls}-resource {
   flex-wrap: wrap;
   overflow: hidden;
 
@@ -37,7 +37,7 @@
   }
 
   &.expand {
-    .@{prefix-cls}-resource-content {
+    .#{$prefix-cls}-resource-content {
       display: grid;
       grid-template-columns: repeat(3, 33.3333%);
       grid-gap: 1px;
@@ -45,7 +45,7 @@
       border-bottom: 1px solid var(--dn-panel-border-color);
     }
 
-    .@{prefix-cls}-resource-header-expand {
+    .#{$prefix-cls}-resource-header-expand {
       transform: rotate(0);
     }
   }

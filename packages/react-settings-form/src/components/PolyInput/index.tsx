@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import { Button } from 'antd'
 import { usePrefix, IconWidget } from '@pind/designable-react'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 export interface IInput {
   style?: React.CSSProperties

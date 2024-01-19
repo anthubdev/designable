@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-empty {
+.#{$prefix-cls}-empty {
   transform: perspective(1px) translate3d(0, 0, 0);
   position: absolute;
   top: 0;

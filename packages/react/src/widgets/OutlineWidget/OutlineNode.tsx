@@ -19,7 +19,7 @@ import { IconWidget } from '../IconWidget'
 import { NodeTitleWidget } from '../NodeTitleWidget'
 import { NodeContext } from './context'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 export interface IOutlineTreeNodeProps {
   node: TreeNode
   style?: React.CSSProperties

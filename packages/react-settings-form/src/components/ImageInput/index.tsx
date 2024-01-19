@@ -4,7 +4,7 @@ import { Input, Upload } from 'antd'
 import { usePrefix, IconWidget } from '@pind/designable-react'
 import { SettingsFormContext } from '../../shared/context'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 export interface ImageInputProps extends Omit<InputProps, 'onChange'> {
   value?: string
   onChange?: (value: string) => void

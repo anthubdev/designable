@@ -1,10 +1,10 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-responsive-simulator {
+.#{$prefix-cls}-responsive-simulator {
   background-color: var(--dn-responsive-simulator-bg-color);
 }
 
-.@{prefix-cls}-resize-handle {
+.#{$prefix-cls}-resize-handle {
   position: absolute;
   transition: 0.2s all ease-in-out;
   box-sizing: border-box;

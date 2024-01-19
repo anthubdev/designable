@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-mobile-simulator {
+.#{$prefix-cls}-mobile-simulator {
   position: relative;
   min-height: 100px;
   height: 100%;

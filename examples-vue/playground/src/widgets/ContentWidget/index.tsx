@@ -11,7 +11,7 @@ import {
   onErrorCaptured,
   ref,
 } from 'vue'
-import './styles.less'
+import './styles.scss'
 
 export interface IComponentTreeWidgetProps {
   style?: React.CSSProperties

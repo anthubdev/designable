@@ -2,7 +2,7 @@ import { ReactFC } from '@formily/reactive-react'
 import { IconWidget, usePrefix } from '@pind/designable-react'
 import cls from 'classnames'
 import React, { useContext } from 'react'
-import './styles.less'
+import './styles.scss'
 
 export interface IInputItemsContext {
   width?: string | number

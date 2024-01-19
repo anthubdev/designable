@@ -1,16 +1,17 @@
-@import '~antd/lib/style/themes/default.less';
+$ant-prefix: ant;
+$border-color-base: hsv(0, 0, 85%);
 
 .dn-size-input {
   display: flex;
   width: 100%;
 
-  .@{ant-prefix}-input-number {
+  .#{$ant-prefix}-input-number {
     flex-grow: 2;
     margin-right: 2px;
   }
 
   .dn-size-input-unit {
-    border: 1px solid @border-color-base;
+    border: 1px solid $border-color-base;
     border-radius: 2px;
     cursor: pointer;
     height: 32px;

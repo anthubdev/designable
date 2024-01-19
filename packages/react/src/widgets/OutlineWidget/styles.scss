@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-outline-tree {
+.#{$prefix-cls}-outline-tree {
   &-container {
     position: relative;
     min-height: 100px;
@@ -59,32 +59,32 @@
     min-width: 100%;
 
     &.expanded {
-      & > .@{prefix-cls}-outline-tree-node-header {
-        .@{prefix-cls}-outline-tree-node-expand {
+      & > .#{$prefix-cls}-outline-tree-node-header {
+        .#{$prefix-cls}-outline-tree-node-expand {
           transform: rotate(0);
         }
       }
 
-      & > .@{prefix-cls}-outline-tree-node-children {
+      & > .#{$prefix-cls}-outline-tree-node-children {
         display: block;
       }
     }
 
     &.selected {
-      & > .@{prefix-cls}-outline-tree-node-header {
+      & > .#{$prefix-cls}-outline-tree-node-header {
         background-color: var(--dn-panel-active-bg-color);
 
-        .@{prefix-cls}-outline-tree-node-header-head {
+        .#{$prefix-cls}-outline-tree-node-header-head {
           background-color: var(--dn-panel-active-bg-color);
         }
       }
     }
 
     &.droppable {
-      & > .@{prefix-cls}-outline-tree-node-header {
-        .@{prefix-cls}-outline-tree-node-header-content {
-          .@{prefix-cls}-outline-tree-node-header-base {
-            & > .@{prefix-cls}-outline-tree-node-icon {
+      & > .#{$prefix-cls}-outline-tree-node-header {
+        .#{$prefix-cls}-outline-tree-node-header-content {
+          .#{$prefix-cls}-outline-tree-node-header-base {
+            & > .#{$prefix-cls}-outline-tree-node-icon {
               transform: scale(1.2);
             }
           }
@@ -107,11 +107,11 @@
       padding-left: 8px;
 
       &:hover {
-        .@{prefix-cls}-outline-tree-node-header-content {
+        .#{$prefix-cls}-outline-tree-node-header-content {
           color: var(--dn-outline-tree-node-hover-color);
         }
 
-        .@{prefix-cls}-outline-tree-node-hidden-icon {
+        .#{$prefix-cls}-outline-tree-node-hidden-icon {
           display: block;
         }
       }

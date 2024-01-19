@@ -12,7 +12,7 @@ import { parseExpression, parse } from '@babel/parser'
 import { globalThisPolyfill, uid } from '@pind/designable-shared'
 import { format } from './format'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 import './config'
 import { initMonaco } from './config'
 

@@ -7,7 +7,7 @@ import {
   NodeActionsWidget,
   INodeActionsWidgetActionProps,
 } from '../NodeActionsWidget'
-import './styles.less'
+import './styles.scss'
 
 export interface IDroppableWidgetProps {
   node?: TreeNode

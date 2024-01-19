@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-ghost {
+.#{$prefix-cls}-ghost {
   padding-left: 25px;
   padding-right: 15px;
   height: 30px;

@@ -1,4 +1,4 @@
-@import './variables.less';
+@import './variables.scss';
 
 :root {
   //品牌色
@@ -21,7 +21,7 @@
   --dn-black: #1a1a1a;
 }
 
-.@{prefix-cls}-light {
+.#{$prefix-cls}-light {
   --dn-aux-cover-rect-dragging-color: var(--dn-brand-dragging);
   --dn-aux-cover-rect-dropping-color: var(--dn-brand-dropping);
   --dn-aux-free-selection-background-color: var(--dn-brand-color);
@@ -98,7 +98,7 @@
   --dn-droppable-color: var(--dn-gray-lighter);
 }
 
-.@{prefix-cls}-dark {
+.#{$prefix-cls}-dark {
   --dn-aux-cover-rect-dragging-color: var(--dn-brand-dragging);
   --dn-aux-cover-rect-dropping-color: var(--dn-brand-dropping);
   --dn-aux-free-selection-background-color: var(--dn-brand-color);
@@ -173,7 +173,7 @@
   --dn-droppable-color: var(--dn-white);
 }
 
-.@{prefix-cls}-app {
+.#{$prefix-cls}-app {
   ::-webkit-scrollbar {
     width: 5px;
     height: 5px;

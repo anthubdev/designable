@@ -7,11 +7,11 @@ export const DatePicker = {
       'x-component-props': {
         disabledDate: {
           title: '不可选日期',
-          tooltip: '格式 (currentDate: moment) => boolean',
+          tooltip: '格式 (currentDate: dayjs) => boolean',
         },
         disabledTime: {
           title: '不可选时间',
-          tooltip: '格式 (currentDate: moment) => boolean',
+          tooltip: '格式 (currentDate: dayjs) => boolean',
         },
         inputReadOnly: '输入框只读',
         format: '格式',
@@ -31,11 +31,11 @@ export const DatePicker = {
       'x-component-props': {
         disabledDate: {
           title: 'Disabled Date',
-          tooltip: 'Format (currentDate: moment) => boolean',
+          tooltip: 'Format (currentDate: dayjs) => boolean',
         },
         disabledTime: {
           title: 'Disabled Time',
-          tooltip: 'Format (currentDate: moment) => boolean',
+          tooltip: 'Format (currentDate: dayjs) => boolean',
         },
         inputReadOnly: 'Input ReadOnly',
         format: 'Format',
@@ -55,11 +55,11 @@ export const DatePicker = {
       'x-component-props': {
         disabledDate: {
           title: '비활성화 된 날짜',
-          tooltip: '형식 (currentDate: moment) => boolean',
+          tooltip: '형식 (currentDate: dayjs) => boolean',
         },
         disabledTime: {
           title: '비활성화 된 시간',
-          tooltip: '형식 (currentDate: moment) => boolean',
+          tooltip: '형식 (currentDate: dayjs) => boolean',
         },
         inputReadOnly: 'ReadOnly',
         format: '포맷',

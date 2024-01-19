@@ -10,7 +10,7 @@ import { usePrefix, TextWidget } from '@pind/designable-react'
 import { Header } from './Header'
 import { traverseTree } from './shared'
 import { ITreeDataSource } from './types'
-import './styles.less'
+import './styles.scss'
 
 const SchemaField = createSchemaField({
   components: {

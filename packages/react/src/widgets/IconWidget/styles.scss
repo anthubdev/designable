@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-icon {
+.#{$prefix-cls}-icon {
   display: inline-block;
   color: inherit;
   font-style: normal;

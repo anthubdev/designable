@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-history {
+.#{$prefix-cls}-history {
   &-item {
     display: flex;
     justify-content: space-between;

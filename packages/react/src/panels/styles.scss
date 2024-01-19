@@ -1,6 +1,6 @@
-@import '../variables.less';
+@import '../variables.scss';
 
-.@{prefix-cls}-main-panel {
+.#{$prefix-cls}-main-panel {
   display: flex;
   width: 100%;
   height: 100%;
@@ -60,7 +60,7 @@
   }
 }
 
-.@{prefix-cls}-composite-panel {
+.#{$prefix-cls}-composite-panel {
   flex-grow: 0;
   flex-shrink: 0;
   display: flex;
@@ -188,28 +188,28 @@
   &.direction-right {
     flex-direction: row-reverse;
 
-    .@{prefix-cls}-composite-panel-tabs-pane.active:after {
+    .#{$prefix-cls}-composite-panel-tabs-pane.active:after {
       left: auto;
       right: -1px;
     }
 
-    .@{prefix-cls}-composite-panel-tabs-content.pinning {
+    .#{$prefix-cls}-composite-panel-tabs-content.pinning {
       left: auto;
       right: 100%;
       top: 0;
     }
 
-    .@{prefix-cls}-composite-panel-tabs-content {
+    .#{$prefix-cls}-composite-panel-tabs-content {
       border-right: none;
       border-left: 1px solid var(--dn-panel-border-color);
     }
-    .@{prefix-cls}-composite-panel-tabs {
+    .#{$prefix-cls}-composite-panel-tabs {
       border-left: 1px solid var(--dn-panel-border-color);
     }
   }
 }
 
-.@{prefix-cls}-workspace-panel {
+.#{$prefix-cls}-workspace-panel {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
@@ -229,7 +229,7 @@
   }
 }
 
-.@{prefix-cls}-settings-panel {
+.#{$prefix-cls}-settings-panel {
   flex-grow: 0;
   flex-shrink: 0;
   position: relative;

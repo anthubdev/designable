@@ -25,8 +25,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "@formily/core": "^2.2.16",
-    "@formily/json-schema": "^2.2.16"
+    "@formily/core": "^2.3.1",
+    "@formily/json-schema": "^2.3.1"
   },
   "peerDependencies": {
     "@formily/core": "^2.2.14",

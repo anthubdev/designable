@@ -5,7 +5,7 @@ import React, { Fragment, useEffect } from 'react'
 import { DesignerComponentsContext, TreeNodeContext } from '../../context'
 import { useComponents, useDesigner, usePrefix, useTree } from '../../hooks'
 import { IDesignerComponents } from '../../types'
-import './styles.less'
+import './styles.scss'
 
 export interface IComponentTreeWidgetProps {
   style?: React.CSSProperties

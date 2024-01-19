@@ -4,7 +4,7 @@ import { useField, observer, ReactFC } from '@formily/react'
 import { observable } from '@formily/reactive'
 import { IconWidget, usePrefix } from '@pind/designable-react'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 const ExpandedMap = new Map<string, boolean>()
 

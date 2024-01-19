@@ -1,7 +1,7 @@
 import React from 'react'
 import cls from 'classnames'
 import { usePrefix } from '../../hooks'
-import './styles.less'
+import './styles.scss'
 export interface IPCSimulatorProps
   extends React.HTMLAttributes<HTMLDivElement> {
   className?: string

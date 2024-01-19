@@ -7,7 +7,7 @@ import { Title } from './Title'
 import { Header } from './Header'
 import { traverseTree } from './shared'
 import { ITreeDataSource, INodeItem } from './types'
-import './styles.less'
+import './styles.scss'
 import { GlobalRegistry } from '@pind/designable-core'
 
 const limitTreeDrag = ({ dropPosition }) => {

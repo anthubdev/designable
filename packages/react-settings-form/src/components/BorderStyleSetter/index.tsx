@@ -10,7 +10,7 @@ import { ColorInput } from '../ColorInput'
 import { SizeInput } from '../SizeInput'
 import { PositionInput } from '../PositionInput'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 const Positions = ['center', 'top', 'right', 'bottom', 'left']
 

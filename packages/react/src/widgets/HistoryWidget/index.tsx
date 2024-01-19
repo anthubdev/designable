@@ -4,7 +4,7 @@ import { observer, ReactFC } from '@formily/reactive-react'
 import { usePrefix, useWorkbench } from '../../hooks'
 import { TextWidget } from '../TextWidget'
 import cls from 'classnames'
-import './styles.less'
+import './styles.scss'
 
 export const HistoryWidget: ReactFC = observer(() => {
   const workbench = useWorkbench()

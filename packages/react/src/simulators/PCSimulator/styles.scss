@@ -1,6 +1,6 @@
-@import '../../variables.less';
+@import '../../variables.scss';
 
-.@{prefix-cls}-pc-simulator {
+.#{$prefix-cls}-pc-simulator {
   background-color: var(--dn-pc-simulator-bg-color);
   position: absolute;
   top: 0;
