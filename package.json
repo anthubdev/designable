@@ -11,7 +11,7 @@
     "examples-vue/*"
   ],
   "resolutions": {
-    "@formily/react": "^2.2.14"
+    "@formily/react": "^2.3.1"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",

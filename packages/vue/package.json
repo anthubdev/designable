@@ -28,8 +28,8 @@
     "vue": "^3.2.0"
   },
   "peerDependencies": {
-    "@formily/reactive": "^2.2.14",
-    "@formily/reactive-vue": "^2.2.14",
+    "@formily/reactive": "^2.3.1",
+    "@formily/reactive-vue": "^2.3.1",
     "vue": "^3.2.0"
   },
   "dependencies": {

@@ -29,8 +29,8 @@
     "@formily/json-schema": "^2.3.1"
   },
   "peerDependencies": {
-    "@formily/core": "^2.2.14",
-    "@formily/json-schema": "^2.2.14"
+    "@formily/core": "^2.3.1",
+    "@formily/json-schema": "^2.3.1"
   },
   "dependencies": {
     "@pind/designable-core": "workspace:2.0.0-beta.6",

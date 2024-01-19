@@ -29,7 +29,7 @@
     "@formily/reactive": "^2.3.1",
     "@formily/reactive-react": "^2.3.1",
     "@formily/shared": "^2.3.1",
-    "antd": "^5.13.1",
+    "antd": "^5.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -41,11 +41,11 @@
     "@formily/reactive": "^2.3.1",
     "@formily/reactive-react": "^2.3.1",
     "@formily/shared": "^2.3.1",
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
-    "antd": "^5.13.1",
-    "react": ">=18.2.0",
-    "react-dom": "^18.2.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "antd": "^5.0.0",
+    "react": ">=16.8.0",
+    "react-dom": "^18.0.0",
     "react-is": "^18.0.0"
   },
   "dependencies": {

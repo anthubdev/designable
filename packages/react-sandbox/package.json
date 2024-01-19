@@ -23,8 +23,8 @@
     "build:umd": "rollup --config --bundleConfigAsCjs"
   },
   "peerDependencies": {
-    "react": ">=18.2.0",
-    "react-dom": "^18.2.0"
+    "react": ">=16.8.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.48",

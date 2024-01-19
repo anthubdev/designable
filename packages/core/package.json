@@ -27,8 +27,8 @@
     "@formily/path": "^2.3.1"
   },
   "peerDependencies": {
-    "@formily/json-schema": "^2.2.14",
-    "@formily/path": "^2.2.14"
+    "@formily/json-schema": "^2.3.1",
+    "@formily/path": "^2.3.1"
   },
   "dependencies": {
     "@formily/reactive": "^2.3.1",

@@ -30,13 +30,13 @@
     "react": "^18.2.0"
   },
   "peerDependencies": {
-    "@formily/reactive": "^2.2.14",
-    "@formily/reactive-react": "^2.2.14"
+    "@formily/reactive": "^2.3.1",
+    "@formily/reactive-react": "^2.3.1"
   },
   "dependencies": {
     "@pind/designable-core": "workspace:2.0.0-beta.6",
     "@pind/designable-shared": "workspace:2.0.0-beta.6",
-    "antd": "^5.13.1",
+    "antd": "^5.13.2",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3"
   },
