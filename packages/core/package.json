@@ -1,6 +1,6 @@
 {
   "name": "@antdev/designable-core",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -31,7 +31,7 @@
     "@formily/path": "^2.3.1"
   },
   "dependencies": {
-    "@antdev/designable-shared": "2.0.1",
+    "@antdev/designable-shared": "2.0.2",
     "@formily/reactive": "^2.3.1",
     "@juggle/resize-observer": "^3.4.0"
   },

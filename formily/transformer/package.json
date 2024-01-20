@@ -1,6 +1,6 @@
 {
   "name": "@antdev/designable-formily-transformer",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "main": "lib",
   "engines": {
@@ -33,8 +33,8 @@
     "@formily/json-schema": "^2.3.1"
   },
   "dependencies": {
-    "@antdev/designable-core": "2.0.1",
-    "@antdev/designable-shared": "2.0.1"
+    "@antdev/designable-core": "2.0.2",
+    "@antdev/designable-shared": "2.0.2"
   },
   "gitHead": "7e7104150490d32871d479710fb0d9414ec381f1"
 }

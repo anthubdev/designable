@@ -1,6 +1,6 @@
 {
   "name": "@antdev/designable-react-sandbox",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -32,8 +32,8 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "@antdev/designable-react": "2.0.1",
-    "@antdev/designable-shared": "2.0.1",
+    "@antdev/designable-react": "2.0.2",
+    "@antdev/designable-shared": "2.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
