@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useRef } from 'react'
-import { isStr, isFn, isObj, isPlainObj } from '@pind/designable-shared'
+import { isStr, isFn, isObj, isPlainObj } from '@antdev/designable-shared'
 import { observer, ReactFC } from '@formily/reactive-react'
 import { Tooltip, TooltipProps } from 'antd'
 import { usePrefix, useRegistry, useTheme } from '../../hooks'

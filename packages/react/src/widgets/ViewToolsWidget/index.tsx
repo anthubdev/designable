@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'antd'
 import { observer, ReactFC } from '@formily/reactive-react'
-import { WorkbenchTypes } from '@pind/designable-core'
+import { WorkbenchTypes } from '@antdev/designable-core'
 import { IconWidget } from '../IconWidget'
 import { usePrefix, useWorkbench } from '../../hooks'
 import cls from 'classnames'

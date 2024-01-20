@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Button } from 'antd'
-import { usePrefix, IconWidget } from '@pind/designable-react'
+import { usePrefix, IconWidget } from '@antdev/designable-react'
 import cls from 'classnames'
 import './styles.scss'
 

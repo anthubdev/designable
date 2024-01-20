@@ -1,5 +1,5 @@
 import { ReactFC } from '@formily/reactive-react'
-import { each } from '@pind/designable-shared'
+import { each } from '@antdev/designable-shared'
 import cls from 'classnames'
 import React, { Fragment, useContext, useLayoutEffect, useRef } from 'react'
 import { DesignerLayoutContext } from '../context'

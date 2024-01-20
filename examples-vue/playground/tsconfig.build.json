@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@pind/designable-*": ["../*"]
+      "@antdev/designable-*": ["../*"]
     },
     "declaration": true
   }

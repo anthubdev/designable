@@ -2,7 +2,7 @@ import { Engine } from './Engine'
 import { Viewport } from './Viewport'
 import { Operation, IOperation } from './Operation'
 import { History } from './History'
-import { uid, ICustomEvent, EventContainer } from '@pind/designable-shared'
+import { uid, ICustomEvent, EventContainer } from '@antdev/designable-shared'
 import {
   HistoryGotoEvent,
   HistoryRedoEvent,

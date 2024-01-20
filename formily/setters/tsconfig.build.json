@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@pind/designable-*": ["../../packages/*", "../../formily/*"]
+      "@antdev/designable-*": ["../../packages/*", "../../formily/*"]
     },
     "declaration": true
   }

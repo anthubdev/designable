@@ -11,7 +11,7 @@ import {
   DragStopEvent,
   ViewportScrollEvent,
 } from '../events'
-import { Point } from '@pind/designable-shared'
+import { Point } from '@antdev/designable-shared'
 
 export const useDragDropEffect = (engine: Engine) => {
   engine.subscribeTo(DragStartEvent, (event) => {

@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@pind/designable-shared'
+import { ICustomEvent } from '@antdev/designable-shared'
 import { ITreeNode, TreeNode } from '../../models'
 import { IEngineContext } from '../../types'
 

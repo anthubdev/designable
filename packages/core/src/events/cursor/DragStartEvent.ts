@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@pind/designable-shared'
+import { ICustomEvent } from '@antdev/designable-shared'
 import { AbstractCursorEvent } from './AbstractCursorEvent'
 
 export class DragStartEvent

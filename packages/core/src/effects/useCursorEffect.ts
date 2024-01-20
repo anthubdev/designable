@@ -5,7 +5,7 @@ import {
   DragMoveEvent,
   DragStopEvent,
 } from '../events'
-import { requestIdle } from '@pind/designable-shared'
+import { requestIdle } from '@antdev/designable-shared'
 
 export const useCursorEffect = (engine: Engine) => {
   engine.subscribeTo(MouseMoveEvent, (event) => {

@@ -17,7 +17,7 @@ import {
 } from '@formily/antd-v5'
 import '@formily/grid'
 import { createSchemaField } from '@formily/react'
-import { Slider } from 'antd'
+// import { Slider } from 'antd'
 import 'dayjs'
 import '@rc-component/mini-decimal'
 import {
@@ -68,7 +68,7 @@ export const SchemaField = createSchemaField({
     TimePicker,
     Select,
     Radio,
-    Slider,
+    // Slider,
     Switch,
     Space,
     ArrayItems,

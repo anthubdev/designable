@@ -1,1 +1,1 @@
-export * as Core from '@pind/designable-core'
+export * as Core from '@antdev/designable-core'

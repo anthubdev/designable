@@ -5,7 +5,7 @@ import {
   createDesigner,
   createResource,
   GlobalRegistry,
-} from '@pind/designable-core'
+} from '@antdev/designable-core'
 import {
   CompositePanel,
   Designer,
@@ -22,8 +22,8 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from '@pind/designable-react'
-import { MonacoInput, SettingsForm } from '@pind/designable-react-settings-form'
+} from '@antdev/designable-react'
+import { MonacoInput, SettingsForm } from '@antdev/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
@@ -385,7 +385,7 @@ const Actions = observer(() => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
         }}
       />
-      <Button href="https://github.com/pindjs/designable" target="_blank">
+      <Button href="https://github.com/anthubdev/designable" target="_blank">
         <GithubOutlined />
         Github
       </Button>
@@ -450,10 +450,7 @@ const App = () => {
     </Designer>
   )
 }
-const container = document.getElementById('root')
-if (container) {
-  const root = createRoot(container)
-  root.render(<App />)
-} else {
-  console.error('dom root is non-existent')
-}
+
+const container = document.getElementById('root') as HTMLElement
+const root = createRoot(container)
+root.render(<App />)

@@ -1,5 +1,5 @@
 import { Engine } from '../models'
-import { ICustomEvent } from '@pind/designable-shared'
+import { ICustomEvent } from '@antdev/designable-shared'
 import { IEngineContext } from '../types'
 import { SelectNodeEvent } from '../events'
 

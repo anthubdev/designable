@@ -1,4 +1,4 @@
-import { TreeNode } from '@pind/designable-core'
+import { TreeNode } from '@antdev/designable-core'
 import { inject, Ref } from 'vue'
 import { TreeNodeContext } from '../context'
 

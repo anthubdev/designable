@@ -1,6 +1,6 @@
 import * as Core from './exports'
 export * from './exports'
-import { globalThisPolyfill } from '@pind/designable-shared'
+import { globalThisPolyfill } from '@antdev/designable-shared'
 
 if (globalThisPolyfill?.['Designable']?.['Core']) {
   try {

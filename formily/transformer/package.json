@@ -1,6 +1,6 @@
 {
-  "name": "@pind/designable-formily-transformer",
-  "version": "2.0.0-beta.6",
+  "name": "@antdev/designable-formily-transformer",
+  "version": "2.0.1",
   "license": "MIT",
   "main": "lib",
   "engines": {
@@ -9,13 +9,13 @@
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/anthubdev/designable.git"
   },
   "types": "esm/index.d.ts",
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/anthubdev/designable/issues"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/anthubdev/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -33,8 +33,8 @@
     "@formily/json-schema": "^2.3.1"
   },
   "dependencies": {
-    "@pind/designable-core": "workspace:2.0.0-beta.6",
-    "@pind/designable-shared": "workspace:2.0.0-beta.6"
+    "@antdev/designable-core": "workspace:2.0.1",
+    "@antdev/designable-shared": "workspace:2.0.1"
   },
   "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
 }

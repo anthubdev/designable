@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useRef, useState } from 'react'
-import { isValid } from '@pind/designable-shared'
+import { isValid } from '@antdev/designable-shared'
 import cls from 'classnames'
 import { IconWidget, TextWidget } from '../widgets'
 import { usePrefix } from '../hooks'

@@ -1,6 +1,6 @@
 {
-  "name": "@pind/designable-react-sandbox",
-  "version": "2.0.0-beta.6",
+  "name": "@antdev/designable-react-sandbox",
+  "version": "2.0.1",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -10,12 +10,12 @@
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/anthubdev/designable.git"
   },
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/anthubdev/designable/issues"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/anthubdev/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd",
     "build:cjs": "tsc --project tsconfig.build.json",
@@ -32,8 +32,8 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "@pind/designable-react": "workspace:2.0.0-beta.6",
-    "@pind/designable-shared": "workspace:2.0.0-beta.6",
+    "@antdev/designable-react": "workspace:2.0.1",
+    "@antdev/designable-shared": "workspace:2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

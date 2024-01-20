@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
-import { useDesigner, TextWidget } from '@pind/designable-react'
-import { GlobalRegistry } from '@pind/designable-core'
+import { useDesigner, TextWidget } from '@antdev/designable-react'
+import { GlobalRegistry } from '@antdev/designable-core'
 import { observer } from '@formily/react'
 import { loadInitialSchema, saveSchema } from '../service'
 
@@ -34,7 +34,7 @@ export const ActionsWidget = observer(() => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
         }}
       />
-      <Button href="https://github.com/pindjs/designable" target="_blank">
+      <Button href="https://github.com/anthubdev/designable" target="_blank">
         <GithubOutlined />
         Github
       </Button>

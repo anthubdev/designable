@@ -4,8 +4,8 @@ import {
   isResourceList,
   IResourceLike,
   IResource,
-} from '@pind/designable-core'
-import { isFn } from '@pind/designable-shared'
+} from '@antdev/designable-core'
+import { isFn } from '@antdev/designable-shared'
 import { observer, ReactFC } from '@formily/reactive-react'
 import { usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'

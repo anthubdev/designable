@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { usePrefix } from '@pind/designable-react'
+import { usePrefix } from '@antdev/designable-react'
 import cls from 'classnames'
 import './styles.scss'
 

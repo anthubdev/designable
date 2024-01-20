@@ -1,4 +1,4 @@
-import { EventDriver } from '@pind/designable-shared'
+import { EventDriver } from '@antdev/designable-shared'
 import { Engine } from '../models/Engine'
 import { MouseMoveEvent } from '../events'
 export class MouseMoveDriver extends EventDriver<Engine> {

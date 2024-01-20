@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { TreeNode } from '@pind/designable-core'
+import { TreeNode } from '@antdev/designable-core'
 import { useHover, useSelection, usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import { NodeTitleWidget } from '../NodeTitleWidget'
 import { Button } from 'antd'
 import { observer, ReactFC } from '@formily/reactive-react'
-import { globalThisPolyfill } from '@pind/designable-shared'
+import { globalThisPolyfill } from '@antdev/designable-shared'
 
 const useMouseHover = <T extends { current: HTMLElement | null }>(
   ref: T,

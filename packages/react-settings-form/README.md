@@ -1,1 +1,1 @@
-# @pind/designable-react-settings-form
+# @antdev/designable-react-settings-form

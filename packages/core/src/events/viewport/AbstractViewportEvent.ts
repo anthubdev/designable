@@ -1,5 +1,5 @@
 import { IEngineContext } from '../../types'
-import { globalThisPolyfill } from '@pind/designable-shared'
+import { globalThisPolyfill } from '@antdev/designable-shared'
 
 export interface IViewportEventData {
   scrollX: number

@@ -1,4 +1,4 @@
-import { TreeNode, Engine } from '@pind/designable-core'
+import { TreeNode, Engine } from '@antdev/designable-core'
 
 export type ComponentNameMatcher =
   | string

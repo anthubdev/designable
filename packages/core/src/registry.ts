@@ -1,4 +1,4 @@
-import { each } from '@pind/designable-shared'
+import { each } from '@antdev/designable-shared'
 import { Path } from '@formily/path'
 import { observable } from '@formily/reactive'
 import {

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "jsx": "react",
     "paths": {
-      "@pind/designable-*": ["./packages/*/src"]
+      "@antdev/designable-*": ["./packages/*/src"]
     }
   },
   "exclude": ["./packages/*/esm", "./packages/*/lib"]

@@ -2,7 +2,7 @@ import React, { Fragment, useRef, useMemo } from 'react'
 import { FormItem, IFormItemProps } from '@formily/antd-v5'
 import { useField, observer, ReactFC } from '@formily/react'
 import { observable } from '@formily/reactive'
-import { IconWidget, usePrefix } from '@pind/designable-react'
+import { IconWidget, usePrefix } from '@antdev/designable-react'
 import cls from 'classnames'
 import './styles.scss'
 

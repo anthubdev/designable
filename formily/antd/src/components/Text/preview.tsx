@@ -1,6 +1,6 @@
 import React from 'react'
-import { createBehavior, createResource } from '@pind/designable-core'
-import { DnFC } from '@pind/designable-react'
+import { createBehavior, createResource } from '@antdev/designable-core'
+import { DnFC } from '@antdev/designable-react'
 import { createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'

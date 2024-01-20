@@ -1,6 +1,6 @@
-import { Operation } from '@pind/designable-core'
+import { Operation } from '@antdev/designable-core'
 import { onFieldInputValueChange } from '@formily/core'
-import { globalThisPolyfill } from '@pind/designable-shared'
+import { globalThisPolyfill } from '@antdev/designable-shared'
 
 let timeRequest = 0
 

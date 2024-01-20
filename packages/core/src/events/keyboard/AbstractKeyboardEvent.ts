@@ -1,4 +1,4 @@
-import { getKeyCodeFromEvent, KeyCode } from '@pind/designable-shared'
+import { getKeyCodeFromEvent, KeyCode } from '@antdev/designable-shared'
 import { IEngineContext } from '../../types'
 
 export class AbstractKeyboardEvent {

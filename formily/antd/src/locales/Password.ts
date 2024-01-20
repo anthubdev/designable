@@ -1,4 +1,4 @@
-import { createLocales } from '@pind/designable-core'
+import { createLocales } from '@antdev/designable-core'
 import { Input } from './Input'
 
 export const Password = createLocales(Input, {

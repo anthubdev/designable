@@ -1,7 +1,7 @@
 import React from 'react'
 import { clone, toArr } from '@formily/shared'
 import { observer } from '@formily/reactive-react'
-import { IconWidget, TextWidget, usePrefix } from '@pind/designable-react'
+import { IconWidget, TextWidget, usePrefix } from '@antdev/designable-react'
 import { INodeItem, ITreeDataSource } from './types'
 import { traverseTree } from './shared'
 import './styles.scss'

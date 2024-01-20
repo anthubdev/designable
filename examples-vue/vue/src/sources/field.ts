@@ -1,6 +1,6 @@
-import { createBehavior, createResource } from '@pind/designable-core'
+import { createBehavior, createResource } from '@antdev/designable-core'
 import { Field as Input } from '../components'
-import { DnFC } from '@pind/designable-vue'
+import { DnFC } from '@antdev/designable-vue'
 
 export const Field: DnFC = Input
 

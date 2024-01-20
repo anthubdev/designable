@@ -1,8 +1,8 @@
 import React from 'react'
 import { isVoidField, onFieldReact } from '@formily/core'
-import { TreeNode, GlobalRegistry } from '@pind/designable-core'
-import { isStr } from '@pind/designable-shared'
-import { IconWidget } from '@pind/designable-react'
+import { TreeNode, GlobalRegistry } from '@antdev/designable-core'
+import { isStr } from '@antdev/designable-shared'
+import { IconWidget } from '@antdev/designable-react'
 
 const takeIcon = (message: string) => {
   if (!isStr(message)) return

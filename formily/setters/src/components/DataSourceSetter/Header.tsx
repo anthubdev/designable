@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import { observer } from '@formily/reactive-react'
-import { usePrefix } from '@pind/designable-react'
+import { usePrefix } from '@antdev/designable-react'
 import './styles.scss'
 
 export interface IHeaderProps {

@@ -10,7 +10,7 @@ import {
   ICustomEvent,
   isFn,
   requestIdle,
-} from '@pind/designable-shared'
+} from '@antdev/designable-shared'
 
 export interface IOperation {
   tree?: ITreeNode

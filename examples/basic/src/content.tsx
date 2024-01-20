@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { ComponentTreeWidget, useTreeNode } from '@pind/designable-react'
+import { ComponentTreeWidget, useTreeNode } from '@antdev/designable-react'
 import { observer } from '@formily/reactive-react'
 import { FormProvider } from '@formily/react'
 import { createForm } from '@formily/core'

@@ -1,4 +1,4 @@
-import { execa, execaSync } from 'execa'
+const { execa, execaSync } = require("@esm2cjs/execa");
 import semver from 'semver'
 
 export async function changedPaths(sha: string): Promise<string[]> {

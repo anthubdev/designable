@@ -1,6 +1,6 @@
 {
   "name": "@examples-vue/vue",
-  "version": "2.0.0-beta.6",
+  "version": "2.0.1",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -16,13 +16,13 @@
     "vue-eslint-parser": "^9.0.0"
   },
   "dependencies": {
+    "@antdev/designable-core": "workspace:2.0.1",
+    "@antdev/designable-shared": "workspace:2.0.1",
+    "@antdev/designable-vue": "workspace:2.0.1",
     "@formily/core": "^2.3.1",
     "@formily/reactive": "^2.3.1",
     "@formily/reactive-vue": "^2.3.1",
-    "@formily/vue": "^2.3.1",
-    "@pind/designable-core": "workspace:2.0.0-beta.6",
-    "@pind/designable-shared": "workspace:2.0.0-beta.6",
-    "@pind/designable-vue": "workspace:2.0.0-beta.6"
+    "@formily/vue": "^2.3.1"
   },
   "gitHead": "820790a9ae32c2348bb36b3de7ca5f1051ed392c"
 }

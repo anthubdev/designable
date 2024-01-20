@@ -1,18 +1,18 @@
 {
-  "name": "@pind/designable-formily-antd",
-  "version": "2.0.0-beta.6",
+  "name": "@antdev/designable-formily-antd",
+  "version": "2.0.1",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pindjs/designable.git"
+    "url": "git+https://github.com/anthubdev/designable.git"
   },
   "types": "esm/index.d.ts",
   "bugs": {
-    "url": "https://github.com/pindjs/designable/issues"
+    "url": "https://github.com/anthubdev/designable/issues"
   },
-  "homepage": "https://github.com/pindjs/designable#readme",
+  "homepage": "https://github.com/anthubdev/designable#readme",
   "engines": {
     "npm": ">=3.0.0"
   },
@@ -25,6 +25,7 @@
     "preview:playground": "vite preview --host --config playground/vite.config.ts"
   },
   "devDependencies": {
+    "@antdev/designable-react-settings-form": "workspace:2.0.1",
     "@formily/antd-v5": "^1.1.9",
     "@formily/core": "^2.3.1",
     "@formily/json-schema": "^2.3.1",
@@ -32,7 +33,6 @@
     "@formily/reactive": "^2.3.1",
     "@formily/reactive-react": "^2.3.1",
     "@formily/shared": "^2.3.1",
-    "@pind/designable-react-settings-form": "workspace:2.0.0-beta.6",
     "@types/glob": "^7.2.0",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
@@ -59,10 +59,10 @@
     "react-is": "^18.0.0"
   },
   "dependencies": {
-    "@pind/designable-core": "workspace:2.0.0-beta.6",
-    "@pind/designable-formily-setters": "workspace:2.0.0-beta.6",
-    "@pind/designable-formily-transformer": "workspace:2.0.0-beta.6",
-    "@pind/designable-react": "workspace:2.0.0-beta.6",
+    "@antdev/designable-core": "workspace:2.0.1",
+    "@antdev/designable-formily-setters": "workspace:2.0.1",
+    "@antdev/designable-formily-transformer": "workspace:2.0.1",
+    "@antdev/designable-react": "workspace:2.0.1",
     "antd": "^5.13.2",
     "classnames": "^2.3.2",
     "react": "^18.2.0",

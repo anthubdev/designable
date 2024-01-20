@@ -29,5 +29,5 @@ Designable is your perfect choice.
 This project exists thanks to all the people who contribute.
 
 <p>
-<a href="https://github.com/pindjs/designable/graphs/contributors"><img src="https://contrib.rocks/image?repo=alibaba/designable" /></a>
+<a href="https://github.com/anthubdev/designable/graphs/contributors"><img src="https://contrib.rocks/image?repo=alibaba/designable" /></a>
 </p>

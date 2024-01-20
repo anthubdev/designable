@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@pind/designable-shared'
+import { ICustomEvent } from '@antdev/designable-shared'
 import { AbstractKeyboardEvent } from './AbstractKeyboardEvent'
 
 export class KeyDownEvent

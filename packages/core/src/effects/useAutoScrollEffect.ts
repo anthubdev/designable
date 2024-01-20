@@ -6,7 +6,7 @@ import {
   IAutoScrollBasicInfo,
   IPoint,
   Point,
-} from '@pind/designable-shared'
+} from '@antdev/designable-shared'
 
 export const useAutoScrollEffect = (engine: Engine) => {
   let xScroller: IAutoScrollBasicInfo | null = null

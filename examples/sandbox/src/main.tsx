@@ -6,7 +6,7 @@ import {
   createDesigner,
   createResource,
   GlobalRegistry,
-} from '@pind/designable-core'
+} from '@antdev/designable-core'
 import {
   CompositePanel,
   Designer,
@@ -23,9 +23,9 @@ import {
   ViewToolsWidget,
   Workbench,
   WorkspacePanel,
-} from '@pind/designable-react'
-import { Sandbox } from '@pind/designable-react-sandbox'
-import { MonacoInput, SettingsForm } from '@pind/designable-react-settings-form'
+} from '@antdev/designable-react'
+import { Sandbox } from '@antdev/designable-react-sandbox'
+import { MonacoInput, SettingsForm } from '@antdev/designable-react-settings-form'
 import { Button, Radio, Space } from 'antd'
 import React, { useEffect, useMemo } from 'react'
 import { createRoot } from 'react-dom/client'
@@ -317,7 +317,7 @@ const Actions = observer(() => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
         }}
       />
-      <Button href="https://github.com/pindjs/designable" target="_blank">
+      <Button href="https://github.com/anthubdev/designable" target="_blank">
         <GithubOutlined />
         Github
       </Button>
