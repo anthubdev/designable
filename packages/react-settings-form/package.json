@@ -44,9 +44,9 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@antdev/designable-core": "workspace:2.0.1",
-    "@antdev/designable-react": "workspace:2.0.1",
-    "@antdev/designable-shared": "workspace:2.0.1",
+    "@antdev/designable-core": "2.0.1",
+    "@antdev/designable-react": "2.0.1",
+    "@antdev/designable-shared": "2.0.1",
     "@babel/parser": "^7.20.7",
     "@formily/antd-v5": "^1.1.9",
     "@formily/core": "^2.3.1",
@@ -66,5 +66,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+  "gitHead": "7e7104150490d32871d479710fb0d9414ec381f1"
 }

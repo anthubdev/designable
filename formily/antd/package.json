@@ -25,7 +25,7 @@
     "preview:playground": "vite preview --host --config playground/vite.config.ts"
   },
   "devDependencies": {
-    "@antdev/designable-react-settings-form": "workspace:2.0.1",
+    "@antdev/designable-react-settings-form": "2.0.1",
     "@formily/antd-v5": "^1.1.9",
     "@formily/core": "^2.3.1",
     "@formily/json-schema": "^2.3.1",
@@ -59,10 +59,10 @@
     "react-is": "^18.0.0"
   },
   "dependencies": {
-    "@antdev/designable-core": "workspace:2.0.1",
-    "@antdev/designable-formily-setters": "workspace:2.0.1",
-    "@antdev/designable-formily-transformer": "workspace:2.0.1",
-    "@antdev/designable-react": "workspace:2.0.1",
+    "@antdev/designable-core": "2.0.1",
+    "@antdev/designable-formily-setters": "2.0.1",
+    "@antdev/designable-formily-transformer": "2.0.1",
+    "@antdev/designable-react": "2.0.1",
     "antd": "^5.13.2",
     "classnames": "^2.3.2",
     "react": "^18.2.0",
@@ -72,5 +72,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2c44ae410a73f02735c63c6430e021a50e21f3ec"
+  "gitHead": "7e7104150490d32871d479710fb0d9414ec381f1"
 }
