@@ -1,6 +1,6 @@
 {
   "name": "@antdev/designable-vue",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -33,8 +33,8 @@
     "vue": "^3.2.0"
   },
   "dependencies": {
-    "@antdev/designable-core": "2.0.2",
-    "@antdev/designable-shared": "2.0.2",
+    "@antdev/designable-core": "2.0.3",
+    "@antdev/designable-shared": "2.0.3",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3"
   },

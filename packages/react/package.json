@@ -1,6 +1,6 @@
 {
   "name": "@antdev/designable-react",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -34,8 +34,8 @@
     "@formily/reactive-react": "^2.3.1"
   },
   "dependencies": {
-    "@antdev/designable-core": "2.0.2",
-    "@antdev/designable-shared": "2.0.2",
+    "@antdev/designable-core": "2.0.3",
+    "@antdev/designable-shared": "2.0.3",
     "antd": "^5.13.2",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3"

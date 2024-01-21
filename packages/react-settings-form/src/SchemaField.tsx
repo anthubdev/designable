@@ -15,11 +15,12 @@ import {
   Switch,
   TimePicker,
 } from '@formily/antd-v5'
-import '@formily/grid'
 import { createSchemaField } from '@formily/react'
-// import { Slider } from 'antd'
-import 'dayjs'
+import { Slider } from 'antd'
+import '@formily/grid'
 import '@rc-component/mini-decimal'
+import 'dayjs'
+import 'rc-slider'
 import {
   BackgroundImageInput,
   BackgroundStyleSetter,
@@ -68,7 +69,7 @@ export const SchemaField = createSchemaField({
     TimePicker,
     Select,
     Radio,
-    // Slider,
+    Slider,
     Switch,
     Space,
     ArrayItems,

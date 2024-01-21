@@ -1,6 +1,6 @@
 {
   "name": "@antdev/designable-sandbox-example",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -22,11 +22,11 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "@antdev/designable-core": "workspace:2.0.2",
-    "@antdev/designable-react": "workspace:2.0.2",
-    "@antdev/designable-react-sandbox": "workspace:2.0.2",
-    "@antdev/designable-react-settings-form": "workspace:2.0.2",
-    "@antdev/designable-shared": "workspace:2.0.2",
+    "@antdev/designable-core": "workspace:2.0.3",
+    "@antdev/designable-react": "workspace:2.0.3",
+    "@antdev/designable-react-sandbox": "workspace:2.0.3",
+    "@antdev/designable-react-settings-form": "workspace:2.0.3",
+    "@antdev/designable-shared": "workspace:2.0.3",
     "@formily/antd-v5": "^1.1.9",
     "@formily/core": "^2.3.1",
     "@formily/react": "^2.3.1",
