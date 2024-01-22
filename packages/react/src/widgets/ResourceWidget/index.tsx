@@ -68,7 +68,7 @@ const ResourceNodeWidget: React.FC<IResourceNodeWidgetProps> = observer(
 )
 
 export const ResourceWidget: ReactFC<IResourceWidgetProps> = observer(
-  ({ className, title, defaultExpand, ...props }) => {
+  ({ className, title, defaultExpand = true, ...props }) => {
     const prefix = usePrefix('resource')
     const [expand, setExpand] = useState(defaultExpand)
 
@@ -131,7 +131,3 @@ export const ResourceWidget: ReactFC<IResourceWidgetProps> = observer(
     )
   }
 )
-
-ResourceWidget.defaultProps = {
-  defaultExpand: true,
-}

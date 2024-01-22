@@ -66,7 +66,3 @@ export const ViewToolsWidget: ReactFC<IViewToolsWidget> = observer(
     )
   }
 )
-
-ViewToolsWidget.defaultProps = {
-  use: ['DESIGNABLE', 'JSONTREE', 'PREVIEW'],
-}

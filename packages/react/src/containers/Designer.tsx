@@ -10,7 +10,11 @@ import { ReactFC } from '@formily/reactive-react'
 
 GlobalRegistry.registerDesignerIcons(icons)
 
-export const Designer: ReactFC<IDesignerProps> = (props) => {
+export const Designer: ReactFC<IDesignerProps> = ({
+  prefixCls = 'dn-',
+  theme = 'light',
+  ...props
+}) => {
   const engine = useDesigner()
   const ref = useRef<Engine>()
   useEffect(() => {
@@ -36,16 +40,11 @@ export const Designer: ReactFC<IDesignerProps> = (props) => {
     )
 
   return (
-    <Layout {...props}>
+    <Layout prefixCls={prefixCls} theme={theme} {...props}>
       <DesignerEngineContext.Provider value={props.engine}>
         {props.children}
         <GhostWidget />
       </DesignerEngineContext.Provider>
     </Layout>
   )
-}
-
-Designer.defaultProps = {
-  prefixCls: 'dn-',
-  theme: 'light',
 }

@@ -27,8 +27,15 @@ const BoxRex =
   /(\-?[\d\.]+[^\d\s\.+-]+)(?:\s+(\-?[\d\.]+[^\d\s\.+-]+)(?:\s+(\-?[\d\.]+[^\d\s\.+-]+)(?:\s+(\-?[\d\.]+[^\d\s\.+-]+))?)?)?/
 
 export const BoxStyleSetter: React.FC<IMarginStyleSetterProps> = observer(
-  (props) => {
-    const { labels = [] } = props
+  ({
+    labels = [
+      <IconWidget infer="Top" size={16} key="1" />,
+      <IconWidget infer="Right" size={16} key="2" />,
+      <IconWidget infer="Bottom" size={16} key="3" />,
+      <IconWidget infer="Left" size={16} key="4" />,
+    ],
+    ...props
+  }) => {
     const field = useField()
     const prefix = usePrefix('box-style-setter')
     const createPositionHandler = (
@@ -104,12 +111,3 @@ export const BoxStyleSetter: React.FC<IMarginStyleSetterProps> = observer(
     )
   }
 )
-
-BoxStyleSetter.defaultProps = {
-  labels: [
-    <IconWidget infer="Top" size={16} key="1" />,
-    <IconWidget infer="Right" size={16} key="2" />,
-    <IconWidget infer="Bottom" size={16} key="3" />,
-    <IconWidget infer="Left" size={16} key="4" />,
-  ],
-}

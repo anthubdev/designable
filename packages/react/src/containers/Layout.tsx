@@ -5,47 +5,45 @@ import React, { Fragment, useContext, useLayoutEffect, useRef } from 'react'
 import { DesignerLayoutContext } from '../context'
 import { IDesignerLayoutProps } from '../types'
 
-export const Layout: ReactFC<IDesignerLayoutProps> = (props) => {
+export const Layout: ReactFC<IDesignerLayoutProps> = ({
+  theme = 'light',
+  prefixCls = 'dn-',
+  position = 'fixed',
+  variables,
+  children,
+}) => {
   const layout = useContext(DesignerLayoutContext)
   const ref = useRef<HTMLDivElement>(null)
 
   useLayoutEffect(() => {
     const { current } = ref
-    const { variables } = props
     if (current && variables) {
       each(variables, (value, key) => {
         current.style.setProperty(`--${key}`, value)
       })
     }
-  }, [props.variables])
+  }, [variables])
 
   if (layout) {
-    return <Fragment>{props.children}</Fragment>
+    return <Fragment>{children}</Fragment>
   }
   return (
     <div
       ref={ref}
       className={cls({
-        [`${props.prefixCls}app`]: true,
-        [`${props.prefixCls}${props.theme}`]: props.theme,
+        [`${prefixCls}app`]: true,
+        [`${prefixCls}${theme}`]: theme,
       })}
     >
       <DesignerLayoutContext.Provider
         value={{
-          theme: props.theme,
-          prefixCls: props.prefixCls as string,
-          position:
-            props.position as Required<IDesignerLayoutProps>['position'],
+          theme: theme,
+          prefixCls: prefixCls as string,
+          position: position as Required<IDesignerLayoutProps>['position'],
         }}
       >
-        {props.children}
+        {children}
       </DesignerLayoutContext.Provider>
     </div>
   )
-}
-
-Layout.defaultProps = {
-  theme: 'light',
-  prefixCls: 'dn-',
-  position: 'fixed',
 }

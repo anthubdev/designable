@@ -24,7 +24,7 @@ export const DroppableWidget: ReactFC<IDroppableWidgetProps> = observer(
     node,
     actions,
     height,
-    placeholder,
+    placeholder = true,
     style,
     className,
     hasChildren: hasChildrenProp,
@@ -56,7 +56,3 @@ export const DroppableWidget: ReactFC<IDroppableWidgetProps> = observer(
     )
   }
 )
-
-DroppableWidget.defaultProps = {
-  placeholder: true,
-}
