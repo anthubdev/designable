@@ -1,6 +1,6 @@
 {
   "name": "@antdev/designable-formily-setters",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -49,11 +49,11 @@
     "react-is": "^18.0.0"
   },
   "dependencies": {
-    "@antdev/designable-core": "2.0.3",
-    "@antdev/designable-formily-transformer": "2.0.3",
-    "@antdev/designable-react": "2.0.3",
-    "@antdev/designable-react-settings-form": "2.0.3",
-    "@antdev/designable-shared": "2.0.3",
+    "@antdev/designable-core": "2.0.4",
+    "@antdev/designable-formily-transformer": "2.0.4",
+    "@antdev/designable-react": "2.0.4",
+    "@antdev/designable-react-settings-form": "2.0.4",
+    "@antdev/designable-shared": "2.0.4",
     "@formily/json-schema": "^2.3.1",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",

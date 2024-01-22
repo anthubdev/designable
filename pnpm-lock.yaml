@@ -238,22 +238,22 @@ importers:
   examples-vue/playground:
     dependencies:
       '@antdev/designable-core':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/core
       '@antdev/designable-react':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react
       '@antdev/designable-react-sandbox':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-sandbox
       '@antdev/designable-react-settings-form':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-settings-form
       '@antdev/designable-shared':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/shared
       '@antdev/designable-vue':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/vue
       '@formily/antd-v5':
         specifier: ^1.1.9
@@ -326,19 +326,19 @@ importers:
   examples-vue/react:
     dependencies:
       '@antdev/designable-core':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/core
       '@antdev/designable-react':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react
       '@antdev/designable-react-sandbox':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-sandbox
       '@antdev/designable-react-settings-form':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-settings-form
       '@antdev/designable-shared':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/shared
       '@formily/antd-v5':
         specifier: ^1.1.9
@@ -384,13 +384,13 @@ importers:
   examples-vue/vue:
     dependencies:
       '@antdev/designable-core':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/core
       '@antdev/designable-shared':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/shared
       '@antdev/designable-vue':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/vue
       '@formily/core':
         specifier: ^2.3.1
@@ -421,19 +421,19 @@ importers:
   examples/basic:
     dependencies:
       '@antdev/designable-core':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/core
       '@antdev/designable-react':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react
       '@antdev/designable-react-sandbox':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-sandbox
       '@antdev/designable-react-settings-form':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-settings-form
       '@antdev/designable-shared':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/shared
       '@formily/antd-v5':
         specifier: ^1.1.9
@@ -491,19 +491,19 @@ importers:
   examples/multi-workspace:
     dependencies:
       '@antdev/designable-core':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/core
       '@antdev/designable-react':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react
       '@antdev/designable-react-sandbox':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-sandbox
       '@antdev/designable-react-settings-form':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-settings-form
       '@antdev/designable-shared':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/shared
       '@formily/antd-v5':
         specifier: ^1.1.9
@@ -561,19 +561,19 @@ importers:
   examples/sandbox:
     dependencies:
       '@antdev/designable-core':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/core
       '@antdev/designable-react':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react
       '@antdev/designable-react-sandbox':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-sandbox
       '@antdev/designable-react-settings-form':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-settings-form
       '@antdev/designable-shared':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/shared
       '@formily/antd-v5':
         specifier: ^1.1.9
@@ -634,19 +634,19 @@ importers:
   examples/sandbox-multi-workspace:
     dependencies:
       '@antdev/designable-core':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/core
       '@antdev/designable-react':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react
       '@antdev/designable-react-sandbox':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-sandbox
       '@antdev/designable-react-settings-form':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/react-settings-form
       '@antdev/designable-shared':
-        specifier: workspace:2.0.3
+        specifier: workspace:2.0.4
         version: link:../../packages/shared
       '@formily/antd-v5':
         specifier: ^1.1.9
@@ -707,16 +707,16 @@ importers:
   formily/antd:
     dependencies:
       '@antdev/designable-core':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/core
       '@antdev/designable-formily-setters':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../setters
       '@antdev/designable-formily-transformer':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../transformer
       '@antdev/designable-react':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/react
       antd:
         specifier: ^5.13.2
@@ -735,7 +735,7 @@ importers:
         version: 18.2.0
     devDependencies:
       '@antdev/designable-react-settings-form':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/react-settings-form
       '@formily/antd-v5':
         specifier: ^1.1.9
@@ -792,19 +792,19 @@ importers:
   formily/setters:
     dependencies:
       '@antdev/designable-core':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/core
       '@antdev/designable-formily-transformer':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../transformer
       '@antdev/designable-react':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/react
       '@antdev/designable-react-settings-form':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/react-settings-form
       '@antdev/designable-shared':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/shared
       '@formily/json-schema':
         specifier: ^2.3.1
@@ -853,10 +853,10 @@ importers:
   formily/transformer:
     dependencies:
       '@antdev/designable-core':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/core
       '@antdev/designable-shared':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../../packages/shared
     devDependencies:
       '@formily/core':
@@ -869,7 +869,7 @@ importers:
   packages/core:
     dependencies:
       '@antdev/designable-shared':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../shared
       '@formily/reactive':
         specifier: ^2.3.1
@@ -888,10 +888,10 @@ importers:
   packages/react:
     dependencies:
       '@antdev/designable-core':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../core
       '@antdev/designable-shared':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../shared
       antd:
         specifier: ^5.13.2
@@ -922,10 +922,10 @@ importers:
   packages/react-sandbox:
     dependencies:
       '@antdev/designable-react':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../react
       '@antdev/designable-shared':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../shared
       react:
         specifier: ^18.2.0
@@ -944,13 +944,13 @@ importers:
   packages/react-settings-form:
     dependencies:
       '@antdev/designable-core':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../core
       '@antdev/designable-react':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../react
       '@antdev/designable-shared':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../shared
       '@babel/parser':
         specifier: ^7.20.7
@@ -1029,10 +1029,10 @@ importers:
   packages/vue:
     dependencies:
       '@antdev/designable-core':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../core
       '@antdev/designable-shared':
-        specifier: 2.0.3
+        specifier: 2.0.4
         version: link:../shared
       classnames:
         specifier: ^2.3.2
